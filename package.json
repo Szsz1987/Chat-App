@@ -2,6 +2,16 @@
   "name": "y",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "cd client && yarn install && yarn build"
+  },
   "author": "Szymon <sszulinski@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
