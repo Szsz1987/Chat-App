@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
 body {
   background: #282c34;
   color: #fff;
@@ -104,6 +103,10 @@ p {
   background: #3498db;
 }
 
+.message--changeUser {
+  font-style: italic;
+}
+
 .show {
   display: block;
 }
@@ -112,7 +115,6 @@ p {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
@@ -122,8 +124,7 @@ p {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
-}
+} 
